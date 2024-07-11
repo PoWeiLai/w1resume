@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,8 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    
+    font-family: "Castoro";
+    font-weight: 400;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -47,76 +49,88 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*{
-    font-family: "Castoro";
-    font-weight: 400;
-}
+
 .container{
-  width:1290px;   
-  margin:0 auto;
+    width: 1296px;
+     margin:0 auto;
 }
 
-h1{
-    font-size: 128px;
-    line-height:192px;
-}
-h2{
-   font-size:40px;
-   line-height:60px;
-}
-.h3{
-    font-size:32px;
-    line-height:48px;
-}
-.h4{
-    font-size:24px;
-    line-height:36px;
-}
-h5{
-    font-size:20px;
-    line-height:30px;
-}
-.main h5{
-    font-style: italic;
-}
-.container img{
-    display: block;
-    margin:0 auto;
-}
-.moveRight{
-    text-align: end;
-}
-p.h3{
-    width:636px;
-    margin-left:auto;
-
-}
-.main h2{
-    color:#AE0000;
-    border-bottom: 3px solid #AE0000;
-    width:636px;
-    margin-top:40px;
-    margin-bottom:20px;
-}
-.main p{
-    width:636px;
-    margin-bottom:20px;
-}
 .article{
-    background-color:#EFEFEF;
+    background-color:  #EFEFEF;
     padding-top:48px;
     padding-bottom:48px;
-    margin-bottom:20px;
+    margin-bottom: 80px;
+}
+
+.text-XXL{
+    font-size: 128px;
+    line-height: 192px;
+}
+.text-XL{
+    font-size: 40px;
+    line-height: 60px;
+}
+.text-X{
+    font-size: 32px;
+    line-height: 48px;  
+}
+.text-M{
+    font-size: 24px;
+    line-height: 36px;
+}
+.text-S{
+    font-size: 20px;
+    line-height: 30px;
+}
+.italic{
+   font-style: italic;
+}
+.section h3{
+    border-bottom: 3px solid #AE0000;
+    color:#AE0000;
+}
+.header img{
+    margin:0 auto;
+    display: block;
+}
+
+
+.width-50{
+    width:50%;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+.textGrey{
+    color:#949494;
+
 }
 .footer{
     background-color: black;
-    text-align:center;
-    margin-top:80px;
+
 }
-.footer img{
-    display:inline-block;
-    padding-top:40px;
-    padding-bottom:40px;
+.linkImg{
+    display: block;
+   text-align: center;
+   
+}
+.ml-40{
     margin-right:40px;
 }
-
+.linkImg img{
+    padding-top:64px;
+    padding-bottom:64px;
+}
+.mb-16{
+    margin-bottom:16px;
+}
+.mb-8{
+    margin-bottom:8px;
+}
+.mt-40{
+    margin-top:40px;
+}
+.mt-160{
+    margin-top:160px;
+}
